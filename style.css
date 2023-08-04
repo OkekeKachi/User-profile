@@ -1,0 +1,19 @@
+h1{
+    display: inline-block;
+}
+.image{
+    display: inline-block;
+    padding-left: 10px;
+}
+#firstRow{
+    background-color: aqua;
+}
+#secondRow{
+    background-color: black;
+}
+#thirdRow{
+    background-color: aqua;
+}
+#fourthRow{
+    background-color: aqua;
+}

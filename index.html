@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script>
         function generateName(){
             var aboutMe = "Felix is an average web developer currently doing an internship at danisoft"            
@@ -18,26 +19,28 @@
         <div style="margin-bottom: 20px; white-space: nowrap;">
             <table border="3">
                 <tr >
-                    <td>
-                        <h1 style="border:20cm; font-family: 'Roboto', sans-serif;" >Developer's profile</h1>
+                    <td id="firstRow">
+                        <h1 style="border:20cm; font-family: 'Roboto', sans-serif;" >Developer's profile</h1><img src="https://th.bing.com/th?id=OIP.qvyVhBLTLcfPrg8YhpEqnAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="Random image" class="image" height="30px", width="30px">
                     </td>
                 </tr>
                 
                 <tr >
-                    <td colspan="2">
+                    <td colspan="2" id="secondRow">
                         <div align="center"id="image-container">
                             <img src="C:\Users\Student\Documents\githubProfile.jpg" style="height: 150px; width: 120px"  alt="Profile" style="border-radius: 100%;">
                         </div>
                     </td>   
                 </tr>      
                 <tr>
-                    <td>
-                        <h3 id="nameDisplay" style="display:inline-block;">Output</h3>
+                    <td id="thirdRow">
+                        <div align="center">
+                            <h3 id="nameDisplay" style="display:inline-block;">About me</h3>
+                        </div>                        
                     </td>
                 </tr>          
                 <tr>
-                    <td style="padding-top: 20px;">
-                        <div align="right">
+                    <td style="padding-top: 20px;" id="fourthRow">
+                        <div align="center">
                             <input type="button" onclick="generateName()" value="Generate Info" style="color: white; font-family: 'Roboto', sans-serif; background-color:black;">
                         </div>
                     </td>
