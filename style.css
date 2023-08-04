@@ -4,6 +4,7 @@ h1{
 .image{
     display: inline-block;
     padding-left: 10px;
+    border-radius: 5px;
 }
 #firstRow{
     background-color: aqua;
@@ -16,4 +17,7 @@ h1{
 }
 #fourthRow{
     background-color: aqua;
+}
+body{
+    background-color: rgb(9, 41, 49);
 }
